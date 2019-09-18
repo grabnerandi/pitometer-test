@@ -20,7 +20,7 @@ docker run -d -p 27017:27017 mongo
 ```
 4. Then execute the following in your command shell
 ```
-npm install
+npm install --only=prod
 npm start
 ```
 5. open your browers to http://localhost:YOURPORT
